@@ -6,14 +6,13 @@ def countdown(x)
   puts "#{x} SECOND(S)!"
   x-=1
   end
+end 
 
+def countdown_with_sleep (countdown)
+  sleep(5)
   if x = 1
     message ="HAPPY NEW YEAR!"
    puts "HAPPY NEW YEAR!"
    return message
   end
-end
-
-def countdown_with_sleep (countdown)
-  sleep(5)
 end
